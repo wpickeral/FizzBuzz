@@ -1,5 +1,6 @@
 # FizzBuzz
 
+```cs
 public static class FizzBuzz
 {
     public static string Run(int num)
@@ -22,3 +23,4 @@ public static class FizzBuzz
         return "Please enter a 3 or 5";
     }
 }
+```
