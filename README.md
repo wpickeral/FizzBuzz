@@ -1,1 +1,24 @@
 # FizzBuzz
+
+public static class FizzBuzz
+{
+    public static string Run(int num)
+    {
+        if (num % 3 == 0 && num % 5 == 0)
+        {
+            return "fizzbuzz";
+        }
+
+        if (num % 3 == 0)
+        {
+            return "fizz";
+        }
+
+        if (num % 5 == 0)
+        {
+            return "buzz";
+        }
+
+        return "Please enter a 3 or 5";
+    }
+}
